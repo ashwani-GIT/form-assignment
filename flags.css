@@ -1,0 +1,1053 @@
+.flag-dropdown-item {
+    grid-column-gap: .5rem;
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto 1fr 40px;
+    white-space: normal;
+    padding: .2rem .5rem;
+}
+.flags_dropdown{
+    overflow: hidden auto;
+    height: 400px;
+}
+
+.flag {
+    background-image: url(flags_sprite_3x.png);
+    box-shadow: 0 0 1px 0 #d9e5f3;
+    display: inline-block;
+    position: relative;
+    line-height: 1.125rem;
+    margin-right: .5rem;
+    width: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: 1000%;
+}
+
+.flag::before {
+    content: "\00a0";
+}
+
+.ae {
+    background-position: -1.5rem 0
+}
+
+.af {
+    background-position: -3rem 0
+}
+
+.ag {
+    background-position: -4.5rem 0
+}
+
+.ai {
+    background-position: -6rem 0
+}
+
+.al {
+    background-position: -7.5rem 0
+}
+
+.am {
+    background-position: -9rem 0
+}
+
+.ao {
+    background-position: -10.5rem 0
+}
+
+.aq {
+    background-position: -12rem 0
+}
+
+.ar {
+    background-position: -13.5rem 0
+}
+
+.as {
+    background-position: 0 -1.125rem
+}
+
+.at {
+    background-position: -1.5rem -1.125rem
+}
+
+.au {
+    background-position: -3rem -1.125rem
+}
+
+.aw {
+    background-position: -4.5rem -1.125rem
+}
+
+.ax {
+    background-position: -6rem -1.125rem
+}
+
+.az {
+    background-position: -7.5rem -1.125rem
+}
+
+.ba {
+    background-position: -9rem -1.125rem
+}
+
+.bb {
+    background-position: -10.5rem -1.125rem
+}
+
+.bd {
+    background-position: -12rem -1.125rem
+}
+
+.be {
+    background-position: -13.5rem -1.125rem
+}
+
+.bf {
+    background-position: 0 -2.25rem
+}
+
+.bg {
+    background-position: -1.5rem -2.25rem
+}
+
+.bh {
+    background-position: -3rem -2.25rem
+}
+
+.bi {
+    background-position: -4.5rem -2.25rem
+}
+
+.bj {
+    background-position: -6rem -2.25rem
+}
+
+.bl {
+    background-position: -7.5rem -2.25rem
+}
+
+.bm {
+    background-position: -9rem -2.25rem
+}
+
+.bn {
+    background-position: -10.5rem -2.25rem
+}
+
+.bo {
+    background-position: -12rem -2.25rem
+}
+
+.bq {
+    background-position: -13.5rem -2.25rem
+}
+
+.br {
+    background-position: 0 -3.375rem
+}
+
+.bs {
+    background-position: -1.5rem -3.375rem
+}
+
+.bt {
+    background-position: -3rem -3.375rem
+}
+
+.bv {
+    background-position: -4.5rem -3.375rem
+}
+
+.bw {
+    background-position: -6rem -3.375rem
+}
+
+.by {
+    background-position: -7.5rem -3.375rem
+}
+
+.bz {
+    background-position: -9rem -3.375rem
+}
+
+.ca {
+    background-position: -10.5rem -3.375rem
+}
+
+.cc {
+    background-position: -12rem -3.375rem
+}
+
+.cd {
+    background-position: -13.5rem -3.375rem
+}
+
+.cf {
+    background-position: 0 -4.5rem
+}
+
+.cg {
+    background-position: -1.5rem -4.5rem
+}
+
+.ch {
+    background-position: -3rem -4.5rem
+}
+
+.ci {
+    background-position: -4.5rem -4.5rem
+}
+
+.ck {
+    background-position: -6rem -4.5rem
+}
+
+.cl {
+    background-position: -7.5rem -4.5rem
+}
+
+.cm {
+    background-position: -9rem -4.5rem
+}
+
+.cn {
+    background-position: -10.5rem -4.5rem
+}
+
+.co {
+    background-position: -12rem -4.5rem
+}
+
+.cr {
+    background-position: -13.5rem -4.5rem
+}
+
+.cu {
+    background-position: 0 -5.625rem
+}
+
+.cv {
+    background-position: -1.5rem -5.625rem
+}
+
+.cw {
+    background-position: -3rem -5.625rem
+}
+
+.cx {
+    background-position: -4.5rem -5.625rem
+}
+
+.cy {
+    background-position: -6rem -5.625rem
+}
+
+.cz {
+    background-position: -7.5rem -5.625rem
+}
+
+.de {
+    background-position: -9rem -5.625rem
+}
+
+.dj {
+    background-position: -10.5rem -5.625rem
+}
+
+.dk {
+    background-position: -12rem -5.625rem
+}
+
+.dm {
+    background-position: -13.5rem -5.625rem
+}
+
+.do {
+    background-position: 0 -6.75rem
+}
+
+.dz {
+    background-position: -1.5rem -6.75rem
+}
+
+.ec {
+    background-position: -3rem -6.75rem
+}
+
+.ee {
+    background-position: -4.5rem -6.75rem
+}
+
+.eg {
+    background-position: -6rem -6.75rem
+}
+
+.eh {
+    background-position: -7.5rem -6.75rem
+}
+
+.er {
+    background-position: -9rem -6.75rem
+}
+
+.es {
+    background-position: -10.5rem -6.75rem
+}
+
+.es-ct {
+    background-position: -12rem -6.75rem
+}
+
+.et {
+    background-position: -13.5rem -6.75rem
+}
+
+.eu {
+    background-position: 0 -7.875rem
+}
+
+.fi {
+    background-position: -1.5rem -7.875rem
+}
+
+.fj {
+    background-position: -3rem -7.875rem
+}
+
+.fk {
+    background-position: -4.5rem -7.875rem
+}
+
+.fm {
+    background-position: -6rem -7.875rem
+}
+
+.fo {
+    background-position: -7.5rem -7.875rem
+}
+
+.fr {
+    background-position: -9rem -7.875rem
+}
+
+.ga {
+    background-position: -10.5rem -7.875rem
+}
+
+.gb {
+    background-position: -12rem -7.875rem
+}
+
+.gb-eng {
+    background-position: -13.5rem -7.875rem
+}
+
+.gb-nir {
+    background-position: 0 -9rem
+}
+
+.gb-sct {
+    background-position: -1.5rem -9rem
+}
+
+.gb-wls {
+    background-position: -3rem -9rem
+}
+
+.gd {
+    background-position: -4.5rem -9rem
+}
+
+.ge {
+    background-position: -6rem -9rem
+}
+
+.gf {
+    background-position: -7.5rem -9rem
+}
+
+.gg {
+    background-position: -9rem -9rem
+}
+
+.gh {
+    background-position: -10.5rem -9rem
+}
+
+.gi {
+    background-position: -12rem -9rem
+}
+
+.gl {
+    background-position: -13.5rem -9rem
+}
+
+.gm {
+    background-position: 0 -10.125rem
+}
+
+.gn {
+    background-position: -1.5rem -10.125rem
+}
+
+.gp {
+    background-position: -3rem -10.125rem
+}
+
+.gq {
+    background-position: -4.5rem -10.125rem
+}
+
+.gr {
+    background-position: -6rem -10.125rem
+}
+
+.gs {
+    background-position: -7.5rem -10.125rem
+}
+
+.gt {
+    background-position: -9rem -10.125rem
+}
+
+.gu {
+    background-position: -10.5rem -10.125rem
+}
+
+.gw {
+    background-position: -12rem -10.125rem
+}
+
+.gy {
+    background-position: -13.5rem -10.125rem
+}
+
+.hk {
+    background-position: 0 -11.25rem
+}
+
+.hm {
+    background-position: -1.5rem -11.25rem
+}
+
+.hn {
+    background-position: -3rem -11.25rem
+}
+
+.hr {
+    background-position: -4.5rem -11.25rem
+}
+
+.ht {
+    background-position: -6rem -11.25rem
+}
+
+.hu {
+    background-position: -7.5rem -11.25rem
+}
+
+.id {
+    background-position: -9rem -11.25rem
+}
+
+.ie {
+    background-position: -10.5rem -11.25rem
+}
+
+.il {
+    background-position: -12rem -11.25rem
+}
+
+.im {
+    background-position: -13.5rem -11.25rem
+}
+
+.in {
+    background-position: 0 -12.375rem
+}
+
+.io {
+    background-position: -1.5rem -12.375rem
+}
+
+.iq {
+    background-position: -3rem -12.375rem
+}
+
+.ir {
+    background-position: -4.5rem -12.375rem
+}
+
+.is {
+    background-position: -6rem -12.375rem
+}
+
+.it {
+    background-position: -7.5rem -12.375rem
+}
+
+.je {
+    background-position: -9rem -12.375rem
+}
+
+.jm {
+    background-position: -10.5rem -12.375rem
+}
+
+.jo {
+    background-position: -12rem -12.375rem
+}
+
+.jp {
+    background-position: -13.5rem -12.375rem
+}
+
+.ke {
+    background-position: 0 -13.5rem
+}
+
+.kg {
+    background-position: -1.5rem -13.5rem
+}
+
+.kh {
+    background-position: -3rem -13.5rem
+}
+
+.ki {
+    background-position: -4.5rem -13.5rem
+}
+
+.km {
+    background-position: -6rem -13.5rem
+}
+
+.kn {
+    background-position: -7.5rem -13.5rem
+}
+
+.kp {
+    background-position: -9rem -13.5rem
+}
+
+.kr {
+    background-position: -10.5rem -13.5rem
+}
+
+.kw {
+    background-position: -12rem -13.5rem
+}
+
+.ky {
+    background-position: -13.5rem -13.5rem
+}
+
+.kz {
+    background-position: 0 -14.625rem
+}
+
+.la {
+    background-position: -1.5rem -14.625rem
+}
+
+.lb {
+    background-position: -3rem -14.625rem
+}
+
+.lc {
+    background-position: -4.5rem -14.625rem
+}
+
+.li {
+    background-position: -6rem -14.625rem
+}
+
+.lk {
+    background-position: -7.5rem -14.625rem
+}
+
+.lr {
+    background-position: -9rem -14.625rem
+}
+
+.ls {
+    background-position: -10.5rem -14.625rem
+}
+
+.lt {
+    background-position: -12rem -14.625rem
+}
+
+.lu {
+    background-position: -13.5rem -14.625rem
+}
+
+.lv {
+    background-position: 0 -15.75rem
+}
+
+.ly {
+    background-position: -1.5rem -15.75rem
+}
+
+.ma {
+    background-position: -3rem -15.75rem
+}
+
+.mc {
+    background-position: -4.5rem -15.75rem
+}
+
+.md {
+    background-position: -6rem -15.75rem
+}
+
+.me {
+    background-position: -7.5rem -15.75rem
+}
+
+.mf {
+    background-position: -9rem -15.75rem
+}
+
+.mg {
+    background-position: -10.5rem -15.75rem
+}
+
+.mh {
+    background-position: -12rem -15.75rem
+}
+
+.mk {
+    background-position: -13.5rem -15.75rem
+}
+
+.ml {
+    background-position: 0 -16.875rem
+}
+
+.mm {
+    background-position: -1.5rem -16.875rem
+}
+
+.mn {
+    background-position: -3rem -16.875rem
+}
+
+.mo {
+    background-position: -4.5rem -16.875rem
+}
+
+.mp {
+    background-position: -6rem -16.875rem
+}
+
+.mq {
+    background-position: -7.5rem -16.875rem
+}
+
+.mr {
+    background-position: -9rem -16.875rem
+}
+
+.ms {
+    background-position: -10.5rem -16.875rem
+}
+
+.mt {
+    background-position: -12rem -16.875rem
+}
+
+.mu {
+    background-position: -13.5rem -16.875rem
+}
+
+.mv {
+    background-position: 0 -18rem
+}
+
+.mw {
+    background-position: -1.5rem -18rem
+}
+
+.mx {
+    background-position: -3rem -18rem
+}
+
+.my {
+    background-position: -4.5rem -18rem
+}
+
+.mz {
+    background-position: -6rem -18rem
+}
+
+.na {
+    background-position: -7.5rem -18rem
+}
+
+.nc {
+    background-position: -9rem -18rem
+}
+
+.ne {
+    background-position: -10.5rem -18rem
+}
+
+.nf {
+    background-position: -12rem -18rem
+}
+
+.ng {
+    background-position: -13.5rem -18rem
+}
+
+.ni {
+    background-position: 0 -19.125rem
+}
+
+.nl {
+    background-position: -1.5rem -19.125rem
+}
+
+.no {
+    background-position: -3rem -19.125rem
+}
+
+.np {
+    background-position: -4.5rem -19.125rem
+}
+
+.nr {
+    background-position: -6rem -19.125rem
+}
+
+.nu {
+    background-position: -7.5rem -19.125rem
+}
+
+.nz {
+    background-position: -9rem -19.125rem
+}
+
+.om {
+    background-position: -10.5rem -19.125rem
+}
+
+.pa {
+    background-position: -12rem -19.125rem
+}
+
+.pe {
+    background-position: -13.5rem -19.125rem
+}
+
+.pf {
+    background-position: 0 -20.25rem
+}
+
+.pg {
+    background-position: -1.5rem -20.25rem
+}
+
+.ph {
+    background-position: -3rem -20.25rem
+}
+
+.pk {
+    background-position: -4.5rem -20.25rem
+}
+
+.pl {
+    background-position: -6rem -20.25rem
+}
+
+.pm {
+    background-position: -7.5rem -20.25rem
+}
+
+.pn {
+    background-position: -9rem -20.25rem
+}
+
+.pr {
+    background-position: -10.5rem -20.25rem
+}
+
+.ps {
+    background-position: -12rem -20.25rem
+}
+
+.pt {
+    background-position: -13.5rem -20.25rem
+}
+
+.pw {
+    background-position: 0 -21.375rem
+}
+
+.py {
+    background-position: -1.5rem -21.375rem
+}
+
+.qa {
+    background-position: -3rem -21.375rem
+}
+
+.re {
+    background-position: -4.5rem -21.375rem
+}
+
+.ro {
+    background-position: -6rem -21.375rem
+}
+
+.rs {
+    background-position: -7.5rem -21.375rem
+}
+
+.ru {
+    background-position: -9rem -21.375rem
+}
+
+.rw {
+    background-position: -10.5rem -21.375rem
+}
+
+.sa {
+    background-position: -12rem -21.375rem
+}
+
+.sb {
+    background-position: -13.5rem -21.375rem
+}
+
+.sc {
+    background-position: 0 -22.5rem
+}
+
+.sd {
+    background-position: -1.5rem -22.5rem
+}
+
+.se {
+    background-position: -3rem -22.5rem
+}
+
+.sg {
+    background-position: -4.5rem -22.5rem
+}
+
+.sh {
+    background-position: -6rem -22.5rem
+}
+
+.si {
+    background-position: -7.5rem -22.5rem
+}
+
+.sj {
+    background-position: -9rem -22.5rem
+}
+
+.sk {
+    background-position: -10.5rem -22.5rem
+}
+
+.sl {
+    background-position: -12rem -22.5rem
+}
+
+.sm {
+    background-position: -13.5rem -22.5rem
+}
+
+.sn {
+    background-position: 0 -23.625rem
+}
+
+.so {
+    background-position: -1.5rem -23.625rem
+}
+
+.sr {
+    background-position: -3rem -23.625rem
+}
+
+.ss {
+    background-position: -4.5rem -23.625rem
+}
+
+.st {
+    background-position: -6rem -23.625rem
+}
+
+.sv {
+    background-position: -7.5rem -23.625rem
+}
+
+.sx {
+    background-position: -9rem -23.625rem
+}
+
+.sy {
+    background-position: -10.5rem -23.625rem
+}
+
+.sz {
+    background-position: -12rem -23.625rem
+}
+
+.tc {
+    background-position: -13.5rem -23.625rem
+}
+
+.td {
+    background-position: 0 -24.75rem
+}
+
+.tf {
+    background-position: -1.5rem -24.75rem
+}
+
+.tg {
+    background-position: -3rem -24.75rem
+}
+
+.th {
+    background-position: -4.5rem -24.75rem
+}
+
+.tj {
+    background-position: -6rem -24.75rem
+}
+
+.tk {
+    background-position: -7.5rem -24.75rem
+}
+
+.tl {
+    background-position: -9rem -24.75rem
+}
+
+.tm {
+    background-position: -10.5rem -24.75rem
+}
+
+.tn {
+    background-position: -12rem -24.75rem
+}
+
+.to {
+    background-position: -13.5rem -24.75rem
+}
+
+.tr {
+    background-position: 0 -25.875rem
+}
+
+.tt {
+    background-position: -1.5rem -25.875rem
+}
+
+.tv {
+    background-position: -3rem -25.875rem
+}
+
+.tw {
+    background-position: -4.5rem -25.875rem
+}
+
+.tz {
+    background-position: -6rem -25.875rem
+}
+
+.ua {
+    background-position: -7.5rem -25.875rem
+}
+
+.ug {
+    background-position: -9rem -25.875rem
+}
+
+.um {
+    background-position: -10.5rem -25.875rem
+}
+
+.un {
+    background-position: -12rem -25.875rem
+}
+
+.us {
+    background-position: -13.5rem -25.875rem
+}
+
+.uy {
+    background-position: 0 -27rem
+}
+
+.uz {
+    background-position: -1.5rem -27rem
+}
+
+.va {
+    background-position: -3rem -27rem
+}
+
+.vc {
+    background-position: -4.5rem -27rem
+}
+
+.ve {
+    background-position: -6rem -27rem
+}
+
+.vg {
+    background-position: -7.5rem -27rem
+}
+
+.vi {
+    background-position: -9rem -27rem
+}
+
+.vn {
+    background-position: -10.5rem -27rem
+}
+
+.vu {
+    background-position: -12rem -27rem
+}
+
+.wf {
+    background-position: -13.5rem -27rem
+}
+
+.ws {
+    background-position: 0 -28.125rem
+}
+
+.xk {
+    background-position: -1.5rem -28.125rem
+}
+
+.ye {
+    background-position: -3rem -28.125rem
+}
+
+.yt {
+    background-position: -4.5rem -28.125rem
+}
+
+.za {
+    background-position: -6rem -28.125rem
+}
+
+.zm {
+    background-position: -7.5rem -28.125rem
+}
+
+.zw {
+    background-position: -9rem -28.125rem
+}
